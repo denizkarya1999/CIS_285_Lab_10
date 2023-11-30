@@ -3,7 +3,7 @@ package basicSelectionSort;
 public class SelectionSort {
 	 private int temp;
 
-   /** Creates a new instance of SelectionSort */
+	/** Creates a new instance of SelectionSort */
    public SelectionSort() {
    }
    
@@ -20,11 +20,10 @@ public class SelectionSort {
                if (x[i] > x[j]) {
                    temp = x[i];
                    x[i] = x[j];
-                   temp = x[j];
+                   x[j] = temp; //Instead of temp is being X[j], temp become x[j]
                }
            } // end of inner for loop
        } // end of outer for loop
        return x;
    } // end of basicSelectionSort method
-
 }
