@@ -3,7 +3,7 @@ package basicSelectionSort;
 public class SelectionSort {
 	 private int temp;
 
-   /** Creates a new instance of SelectionSort */
+	/** Creates a new instance of SelectionSort */
    public SelectionSort() {
    }
    
@@ -26,5 +26,4 @@ public class SelectionSort {
        } // end of outer for loop
        return x;
    } // end of basicSelectionSort method
-
 }
